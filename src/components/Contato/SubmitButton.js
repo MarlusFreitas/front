@@ -1,11 +1,11 @@
-import styles from './SubmitButton.module.css'
+import styles from './SubmitButton.module.css';
 
-function SubmitButton(){
-    return (
-        <div>
-            <button className={styles.btn}>Enviar</button>
-        </div>
-    )
+function SubmitButton({ text }) {
+  return (
+    <div>
+      <button className={styles.btn}>{text}</button>
+    </div>
+  );
 }
 
-export default SubmitButton
+export default SubmitButton;
