@@ -4,7 +4,6 @@ import Formulario from '../Contato/Formulario';
 
 function Contato() {
   const handleSubmit = (project) => {
-    // Lógica para lidar com o envio do formulário
     console.log('Dados do projeto:', project);
   };
 
