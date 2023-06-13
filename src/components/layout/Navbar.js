@@ -6,7 +6,7 @@ import logo from '../../img/icon.png'
 
 function Navbar() {
   return (
-    <nav class={styles.navbar}>
+    <nav className={styles.navbar}>
       <Container>
             <Link to="/">
                 <img src={logo} alt="icon" style={{ width: '85px', height: '85px' }} />
