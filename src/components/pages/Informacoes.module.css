@@ -1,0 +1,53 @@
+.informacoes_container {
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .image_column img {
+    max-width: 300px;
+    margin-right: 1em;
+ 
+  }
+  
+  .info_column {
+    width: 50%;
+    flex-direction: column;
+    text-align: justify;
+ 
+  }
+  
+  .info_column h2 {
+    color: #000000;
+    padding: 0.2;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .info_column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .info_column li {
+    margin-bottom: 0.5em;
+        
+  }
+  
+  .download_button {
+    background-color: #272727;
+    color: #c5c1c1;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .download_button:hover {
+   
