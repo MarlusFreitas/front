@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
 import styles from './Formulario.module.css';
 import Input from './Input';
 import SubmitButton from './SubmitButton';
@@ -12,7 +11,6 @@ function Formulario({ handleSubmit, btnText, projectData }) {
     setProject({ ...project, [e.target.name]: e.target.value });
   };
 
-  const history = useHistory();
 
   const handleSubmitForm = (e) => {
     e.preventDefault();
